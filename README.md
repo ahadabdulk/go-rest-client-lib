@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">fakeclient</h1>
+<h1 align="center"><b>fakeclient</b></h1>
 <p align="center">Simple REST client library for Go</p>
 
 ## About me:
@@ -34,7 +34,8 @@ res, err := c.FetchAccount(ctx, id)
 ##### func (c *Client) ListAccounts(ctx context.Context, options *AccountListOptions) (*ListResponse, error)
 
 ```go
-	c := NewClient()
+    // Create client	
+    c := NewClient()
     ctx := context.Background()
     
     //Also support option of Paging and filtering
